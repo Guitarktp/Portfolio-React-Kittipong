@@ -42,19 +42,25 @@ const Hero = () => {
       >
         
           <div>
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
             <button className='bg-[#161130] w-[264px] h-[128px] rounded-lg flex justify-center items-center'>
               <img src={githubb} className= "w-[208px] h-[82px]" /> 
             </button>
+            </a>
           </div>
           <div>
+            <a href="https://www.behance.net/" target="_blank" rel="noopener noreferrer">
             <button className='bg-[#161130] w-[264px] h-[128px] rounded-lg flex justify-center items-center'>
               <img src={behance} className= "w-[208px] h-[82px]" />
             </button>
+            </a>
           </div>
           <div>
-            <button className='bg-[#161130] w-[264px] h-[128px] rounded-lg flex justify-center items-center'>
-            <img src={dribble} className= "w-[208px] h-[82px]" />
-            </button>
+            <a href="https://dribbble.com/" target="_blank" rel="noopener noreferrer">
+              <button className='bg-[#161130] w-[264px] h-[128px] rounded-lg flex justify-center items-center'>
+              <img src={dribble} className= "w-[208px] h-[82px]" />
+              </button>
+            </a>
           </div>
           <div>
             <a href="https://www.linkedin.com/in/kittipong-satayanusakkul-06552228b/" target="_blank" rel="noopener noreferrer">
