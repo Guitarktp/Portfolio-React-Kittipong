@@ -1,12 +1,19 @@
-import { motion } from "framer-motion";
+import { motion } from 'framer-motion';
 
-import { styles } from "../../constants/styles";
-import { ComputersCanvas } from "../canvas";
-import { config } from "../../constants/config";
+import { styles } from '../../constants/styles';
+// import { ComputersCanvas } from "../canvas";
+import { config } from '../../constants/config';
+import { profilePic } from '../../assets';
+import { behance } from '../../assets';
+import { githubb } from '../../assets';
+import { dribble } from '../../assets';
+import { linkedin } from '../../assets';
 
+
+// ปรับหน้า hero
 const Hero = () => {
   return (
-    <section className={`relative mx-auto h-screen w-full`}>
+    <section className={`relative mx-auto h-screen w-full `}>
       <div
         className={`absolute inset-0 top-[120px] mx-auto max-w-7xl ${styles.paddingX} flex flex-row items-start gap-5`}
       >
@@ -19,14 +26,45 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className="text-[#915EFF]">{config.hero.name}</span>
           </h1>
-          <p className={`${styles.heroSubText} text-white-100 mt-2`}>
+          <p className={`${styles.heroSubText} text-white-100 mt-2 lg:w-[688px] `}>
             {config.hero.p[0]} <br className="hidden sm:block" />
             {config.hero.p[1]}
           </p>
         </div>
+        <div>
+          <img src={ profilePic } className= "h-[400px] w-full mr-60" 
+          alt="" />
+        </div>
       </div>
 
-      <ComputersCanvas />
+      <div
+        className={`absolute bottom-40  w-full ${styles.paddingX} flex gap-5 items-center justify-center `}
+      >
+        
+          <div>
+            <button className='bg-[#161130] w-[264px] h-[128px] rounded-lg flex justify-center items-center'>
+              <img src={githubb} className= "w-[208px] h-[82px]" /> 
+            </button>
+          </div>
+          <div>
+            <button className='bg-[#161130] w-[264px] h-[128px] rounded-lg flex justify-center items-center'>
+              <img src={behance} className= "w-[208px] h-[82px]" />
+            </button>
+          </div>
+          <div>
+            <button className='bg-[#161130] w-[264px] h-[128px] rounded-lg flex justify-center items-center'>
+            <img src={dribble} className= "w-[208px] h-[82px]" />
+            </button>
+          </div>
+          <div>
+            <button className='bg-[#161130] w-[264px] h-[128px] rounded-lg flex justify-center items-center'>
+            <img src={linkedin} className= "w-[204px] h-[82px]" />
+            </button>
+          </div>
+        
+      </div>
+
+      {/* <ComputersCanvas /> */}
 
       <div className="xs:bottom-10 absolute bottom-32 flex w-full items-center justify-center">
         <a href="#about">
@@ -38,7 +76,7 @@ const Hero = () => {
               transition={{
                 duration: 1.5,
                 repeat: Infinity,
-                repeatType: "loop",
+                repeatType: 'loop',
               }}
               className="bg-secondary mb-1 h-3 w-3 rounded-full"
             />

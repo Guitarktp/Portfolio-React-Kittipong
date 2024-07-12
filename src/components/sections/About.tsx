@@ -34,6 +34,7 @@ const ServiceCard: React.FC<IServiceCard> = ({ index, title, icon }) => (
             className="h-16 w-16 object-contain"
           />
 
+         {/* หัวข้อช่อง overview */}
           <h3 className="text-center text-[20px] font-bold text-white">
             {title}
           </h3>

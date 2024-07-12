@@ -25,10 +25,18 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import AAA from "./company/AAA icon.png"
+import generation from "./company/Geeration.png"
+import dribble from "./company/dribble.png"
+import linkedin from "./company/linkedin.png"
+import githubb from "./company/github.png"
+import behance from "./company/behance.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+
+import profilePic from "./tech/ReadyPlayerMe-Avatar 1.png"
 
 export {
   logo,
@@ -59,4 +67,11 @@ export {
   carrent,
   jobit,
   tripguide,
+  profilePic,
+  AAA,
+  generation,
+  dribble,
+  linkedin,
+  githubb,
+  behance,
 };

@@ -32,7 +32,9 @@ const App = () => {
         <Experience />
         <Tech />
         <Works />
-        <Feedbacks />
+        
+        {/* testimonail ไม่ใช้ */}
+        <Feedbacks />   
         <div className="relative z-0">
           <Contact />
           <StarsCanvas />
