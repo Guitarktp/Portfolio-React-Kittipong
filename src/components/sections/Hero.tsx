@@ -57,9 +57,11 @@ const Hero = () => {
             </button>
           </div>
           <div>
-            <button className='bg-[#161130] w-[264px] h-[128px] rounded-lg flex justify-center items-center'>
-            <img src={linkedin} className= "w-[204px] h-[82px]" />
-            </button>
+            <a href="https://www.linkedin.com/in/kittipong-satayanusakkul-06552228b/" target="_blank" rel="noopener noreferrer">
+              <button className='bg-[#161130] w-[264px] h-[128px] rounded-lg flex justify-center items-center'>
+              <img src={linkedin} className= "w-[204px] h-[82px]" />
+              </button>
+            </a>
           </div>
         
       </div>
