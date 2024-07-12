@@ -1,10 +1,10 @@
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 
 import { styles } from "../../constants/styles";
-import { fadeIn } from "../../utils/motion";
-import { testimonials } from "../../constants";
+// import { fadeIn } from "../../utils/motion";
+// import { testimonials } from "../../constants";
 import { Header } from "../atoms/Header";
-import { TTestimonial } from "../../types";
+// import { TTestimonial } from "../../types";
 import { config } from "../../constants/config";
 
 // const FeedbackCard: React.FC<{ index: number } & TTestimonial> = ({
