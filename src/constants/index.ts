@@ -57,7 +57,7 @@ const services: TService[] = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Developer",
     icon: mobile,
   },
   {
@@ -171,9 +171,9 @@ const experiences: TExperience[] = [
     iconBg: "#E6DEDD",
     date: "April 2024 - July 2024",
     points: [
-      "Developedskills in building web applications using React for the Front-end, Node.js for the Back-end, and MongoDB for database management.",
-      "Developed essential career-switching skills including a growth mindset, effective communication, agile methodologies, and teamwork.",
-      "Participated in hands-on projects, collaborating with teammates to create fully functional web applications from inception.",
+      "Developed skills in building web applications using HTML, CSS, JavaScript, and React for the front end, Node.js and Express for the back end, and MongoDBfor database management.",
+      "Developed essential behavioral skills for career-switching, including a growth mindset, effective communication, and teamwork.",
+      "Participated in hands-on projects, collaborating with teammates to create fully functional web applications from scratch, and applied Agile and Scrum methodologies for project management.",
       
     ],
   },
@@ -264,9 +264,10 @@ const testimonials: TTestimonial[] = [
 
 const projects: TProject[] = [
   {
-    name: "Second-Hand Car ",
+    name: "RODDEE   Second-Hand Car ",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+          "Used the MERN Stack to develop a comprehensive web application for buying and selling second-hand cars.",
+      // "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
       {
         name: "react",
@@ -285,7 +286,7 @@ const projects: TProject[] = [
     sourceCodeLink: "https://github.com/",
   },
   {
-    name: "Job IT LOREM",
+    name: "Note Web App",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [

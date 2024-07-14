@@ -55,10 +55,13 @@ const Feedbacks = () => {
       <div
         className={`${styles.paddingX} -mt-20 flex flex-wrap gap-7 pb-14 max-sm:justify-center`}
       >
-          <div className='bg-[#161130] w-[264px] h-[228px] rounded-lg px-4 py-4'>
-            <h1 className={` text-white`}>King Mongkut technology institude Ladkrabang</h1>
+          <div className='bg-[#161130] w-[760px] h-[228px] rounded-lg px-6 py-4'>
+            <h1 className={` text-white text-[24px] font-bold`}>King Mongkut technology institude Ladkrabang</h1>
+            <h1 className={` text-[16px] font-semibold text-[#a29dba]`}>Bachelor of Engineering (2018-2022)</h1>
             <br />
-            <h1 className={` text-white`}>- Aeronautical Engineering and Commercial Pilot</h1>
+            <h1 className={` text-white text-[16px]`}>International Academy of Aviation Industry, Aeronautical Engineering and Commercial Pilot Program</h1>
+            <br />
+            <h1 className={` text-white text-[16px] font-semibold`}>GPA 3.21</h1>
           </div>
         
         {/* {testimonials.map((testimonial, index) => (
