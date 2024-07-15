@@ -6,7 +6,7 @@ import { styles } from "../../constants/styles";
 import { Header } from "../atoms/Header";
 // import { TTestimonial } from "../../types";
 import { config } from "../../constants/config";
-import kmitl from "../../assets/profile_pic/Main Logo KMITL_Thai Orange.png"
+// import kmitl from "../../assets/profile_pic/Main Logo KMITL_Thai Orange.png"
 
 // const FeedbackCard: React.FC<{ index: number } & TTestimonial> = ({
 //   index,

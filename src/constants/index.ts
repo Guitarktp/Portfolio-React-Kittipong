@@ -30,7 +30,7 @@ import {
   // shopify,
   // carrent,
   // jobit,
-  tripguide,
+  // tripguide,
   // threejs,
   generation,
   AAA,
