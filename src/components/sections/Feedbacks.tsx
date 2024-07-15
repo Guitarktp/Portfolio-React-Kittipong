@@ -6,6 +6,7 @@ import { styles } from "../../constants/styles";
 import { Header } from "../atoms/Header";
 // import { TTestimonial } from "../../types";
 import { config } from "../../constants/config";
+import kmitl from "../../assets/profile_pic/Main Logo KMITL_Thai Orange.png"
 
 // const FeedbackCard: React.FC<{ index: number } & TTestimonial> = ({
 //   index,
@@ -56,6 +57,7 @@ const Feedbacks = () => {
         className={`${styles.paddingX} -mt-20 flex flex-wrap gap-7 pb-14 max-sm:justify-center`}
       >
           <div className='bg-[#161130] w-[760px] h-[228px] rounded-lg px-6 py-4'>
+            
             <h1 className={` text-white text-[24px] font-bold`}>King Mongkut technology institude Ladkrabang</h1>
             <h1 className={` text-[16px] font-semibold text-[#a29dba]`}>Bachelor of Engineering (2018-2022)</h1>
             <br />
