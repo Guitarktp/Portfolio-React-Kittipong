@@ -6,7 +6,7 @@ import { config } from '../../constants/config';
 import { profilePic } from '../../assets';
 import { behance } from '../../assets';
 import { githubb } from '../../assets';
-import { dribble } from '../../assets';
+// import { dribble } from '../../assets';
 import { linkedin } from '../../assets';
 
 
@@ -42,30 +42,32 @@ const Hero = () => {
       >
         
           <div>
-            <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
-            <button className='bg-[#161130] w-[264px] h-[128px] rounded-lg flex justify-center items-center'>
-              <img src={githubb} className= "w-[208px] h-[82px]" /> 
+            <a href="https://drive.google.com/file/d/11pvd0z2yqaAU412Z5U1bNM4RdmxmhnDN/view" target="_blank" rel="noopener noreferrer">
+            <button className='bg-[#161130] w-[264px] h-[128px] rounded-lg flex justify-center items-center text-[36px] font-bold'>
+            MY RESUME
+              {/* <img src={githubb} className= "w-[208px] h-[82px]" />  */}
             </button>
-            </a>
-          </div>
-          <div>
-            <a href="https://www.behance.net/" target="_blank" rel="noopener noreferrer">
-            <button className='bg-[#161130] w-[264px] h-[128px] rounded-lg flex justify-center items-center'>
-              <img src={behance} className= "w-[208px] h-[82px]" />
-            </button>
-            </a>
-          </div>
-          <div>
-            <a href="https://dribbble.com/" target="_blank" rel="noopener noreferrer">
-              <button className='bg-[#161130] w-[264px] h-[128px] rounded-lg flex justify-center items-center'>
-              <img src={dribble} className= "w-[208px] h-[82px]" />
-              </button>
             </a>
           </div>
           <div>
             <a href="https://www.linkedin.com/in/kittipong-satayanusakkul-06552228b/" target="_blank" rel="noopener noreferrer">
+            <button className='bg-[#161130] w-[264px] h-[128px] rounded-lg flex justify-center items-center'>
+              <img src={linkedin} className= "w-[208px] h-[82px]" />
+              
+            </button>
+            </a>
+          </div>
+          <div>
+            <a href="https://github.com/guitarktp" target="_blank" rel="noopener noreferrer">
+              <button className='bg-[#161130] w-[264px] h-[128px] rounded-lg flex justify-center items-center '>
+              <img src={githubb} className= "w-[208px] h-[82px]" />
+              </button>
+            </a>
+          </div>
+          <div>
+            <a href="https://www.behance.net/" target="_blank" rel="noopener noreferrer">
               <button className='bg-[#161130] w-[264px] h-[128px] rounded-lg flex justify-center items-center'>
-              <img src={linkedin} className= "w-[204px] h-[82px]" />
+              <img src={behance} className= "w-[204px] h-[82px]" />
               </button>
             </a>
           </div>

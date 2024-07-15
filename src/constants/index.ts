@@ -28,13 +28,16 @@ import {
   // starbucks,
   // tesla,
   // shopify,
-  carrent,
+  // carrent,
   jobit,
   tripguide,
   // threejs,
   generation,
   AAA,
 } from "../assets";
+
+import roddeepic from "../assets/profile_pic/roddee.png"
+import circle from "../assets/Ellipse 22.png"
 
 export const navLinks: TNavLink[] = [
   {
@@ -141,7 +144,7 @@ const experiences: TExperience[] = [
   {
     title: "Graphic Desginer",
     companyName: "Freelance",
-    icon: generation,
+    icon: circle,
     iconBg: "#E6DEDD",
     date: "Jan 2024 - April 2024",
     points: [
@@ -281,12 +284,21 @@ const projects: TProject[] = [
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "Express",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Figma",
+        color: "white-text-gradient",
+      },
+      
     ],
-    image: carrent,
-    sourceCodeLink: "https://github.com/",
+    image: roddeepic,
+    sourceCodeLink: "https://front-end-car-ecommerce.vercel.app/",
   },
   {
-    name: "Note Web App",
+    name: "Shopping cart Web App",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
@@ -304,10 +316,10 @@ const projects: TProject[] = [
       },
     ],
     image: jobit,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://13-guitar-js.vercel.app/",
   },
   {
-    name: "Trip Guide LOREM",
+    name: "CRUD Web App",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
@@ -325,8 +337,50 @@ const projects: TProject[] = [
       },
     ],
     image: tripguide,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://13-guitar-js.vercel.app/",
   },
+  // {
+  //   name: "Shopping cart Web App",
+  //   description:
+  //     "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "restapi",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "scss",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: jobit,
+  //   sourceCodeLink: "https://13-guitar-js.vercel.app/",
+  // },
+  // {
+  //   name: "CRUD Web App",
+  //   description:
+  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+  //   tags: [
+  //     {
+  //       name: "nextjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "supabase",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: tripguide,
+  //   sourceCodeLink: "https://13-guitar-js.vercel.app/",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
