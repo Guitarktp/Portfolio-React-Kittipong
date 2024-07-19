@@ -38,8 +38,8 @@ import {
 
 import roddeepic from "../assets/profile_pic/roddee.png"
 import circle from "../assets/Ellipse 22.png"
-import cart from "../assets/profile_pic/shopping cart.png"
-import crud from "../assets/profile_pic/CRUD.png"
+// import cart from "../assets/profile_pic/shopping cart.png"
+// import crud from "../assets/profile_pic/CRUD.png"
 
 export const navLinks: TNavLink[] = [
   {
@@ -299,50 +299,50 @@ const projects: TProject[] = [
     image: roddeepic,
     sourceCodeLink: "https://front-end-car-ecommerce.vercel.app/",
   },
-  {
-    name: "Shopping Cart Web App",
-    description:
-      "Used HTML, CSS, and JavaScript to develop a comprehensive web application for managing a shopping cart, featuring capabilities to add, edit, and delete items, as well as calculate total price. ",
-    tags: [
-      {
-        name: "Javascript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "html",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-      // {
-      //   name: "restapi",
-      //   color: "green-text-gradient",
-      // },
-      // {
-      //   name: "scss",
-      //   color: "pink-text-gradient",
-      // },
-    ],
-    image: cart,
-    sourceCodeLink: "https://github.com/Guitarktp/13-Guitar-js",
-  },
-  {
-    name: "CRUD Web App",
-    description:
-      "Develop a web application for managing employee data, featuring capabilities to add, edit, and delete employee records, as well as manage roles and other relevant information in an admin dashboard.",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
+  // {
+  //   name: "Shopping Cart Web App",
+  //   description:
+  //     "Used HTML, CSS, and JavaScript to develop a comprehensive web application for managing a shopping cart, featuring capabilities to add, edit, and delete items, as well as calculate total price. ",
+  //   tags: [
+  //     {
+  //       name: "Javascript",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "html",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //     // {
+  //     //   name: "restapi",
+  //     //   color: "green-text-gradient",
+  //     // },
+  //     // {
+  //     //   name: "scss",
+  //     //   color: "pink-text-gradient",
+  //     // },
+  //   ],
+  //   image: cart,
+  //   sourceCodeLink: "https://github.com/Guitarktp/13-Guitar-js",
+  // },
+  // {
+  //   name: "CRUD Web App",
+  //   description:
+  //     "Develop a web application for managing employee data, featuring capabilities to add, edit, and delete employee records, as well as manage roles and other relevant information in an admin dashboard.",
+  //   tags: [
+  //     {
+  //       name: "React",
+  //       color: "blue-text-gradient",
+  //     },
       
-    ],
-    image: crud,
-    sourceCodeLink: "https://github.com/Guitarktp/13-Guitar-react",
-    // sourceCodeLink: "https://13-guitar-js.vercel.app/",
-  },
+  //   ],
+  //   image: crud,
+  //   sourceCodeLink: "https://github.com/Guitarktp/13-Guitar-react",
+  //   // sourceCodeLink: "https://13-guitar-js.vercel.app/",
+  // },
   // {
   //   name: "Shopping cart Web App",
   //   description:
