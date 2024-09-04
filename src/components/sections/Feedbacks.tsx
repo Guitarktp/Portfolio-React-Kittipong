@@ -47,16 +47,16 @@ import { config } from "../../constants/config";
 
 const Feedbacks = () => {
   return (
-    <div className=" mt-12 mx-[312px] rounded-[20px]">
+    <div className=" mt-12 mx-auto rounded-[20px] max-w-7xl">
       <div
-        className={`${styles.padding}  min-h-[300px] rounded-2xl`}
+        className={`${styles.padding} md:min-h-[300px] min-h-[260px] rounded-2xl`}
       >
         <Header useMotion={true} {...config.sections.feedbacks} />
       </div>
       <div
         className={`${styles.paddingX} -mt-20 flex flex-wrap gap-7 pb-14 max-sm:justify-center`}
       >
-          <div className='bg-[#161130] w-[760px] h-[228px] rounded-lg px-6 py-4'>
+          <div className='bg-[#161130] w-[760px]  rounded-lg px-6 py-4'>
             
             <h1 className={` text-white text-[24px] font-bold`}>King Mongkut technology institude Ladkrabang</h1>
             <h1 className={` text-[16px] font-semibold text-[#a29dba]`}>Bachelor of Engineering (2018-2022)</h1>

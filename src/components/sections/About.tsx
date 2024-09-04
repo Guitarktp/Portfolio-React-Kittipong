@@ -27,14 +27,14 @@ const ServiceCard: React.FC<IServiceCard> = ({ index, title, icon }) => (
         variants={fadeIn("right", "spring", index * 0.5, 0.75)}
         className="green-pink-gradient shadow-card w-full rounded-[20px] p-[1px]"
       >
-        <div className="bg-tertiary flex min-h-[280px] flex-col items-center justify-evenly rounded-[20px] px-12 py-5">
+        <div className="bg-tertiary flex min-h-[280px] flex-col items-center justify-evenly rounded-[20px] px-12 py-5 ">
           <img
             src={icon}
             alt="web-development"
             className="h-16 w-16 object-contain"
           />
 
-         {/* หัวข้อช่อง overview */}
+         
           <h3 className="text-center text-[20px] font-bold text-white">
             {title}
           </h3>
@@ -47,7 +47,10 @@ const ServiceCard: React.FC<IServiceCard> = ({ index, title, icon }) => (
 const About = () => {
   return (
     <>
+    {/* ตอนแรกไม่มี div เอามาครอบเอง */}
+    {/* <div className="max-md:mt-72 max-lg:mt-20 max-md:relative"> */}
       <Header useMotion={true} {...config.sections.about} />
+    {/* </div> */}
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}

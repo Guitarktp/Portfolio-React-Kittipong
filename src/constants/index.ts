@@ -170,7 +170,7 @@ const experiences: TExperience[] = [
   //   ],
   // },
   {
-    title: "Junior Software Developer (Learner)",
+    title: "Junior Software Developer (Bootcamp Learner)",
     companyName: "Generation Thailand",
     icon: generation,
     iconBg: "#E6DEDD",
@@ -275,15 +275,15 @@ const projects: TProject[] = [
       // "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Tailwind",
         color: "pink-text-gradient",
       },
       {
@@ -299,6 +299,30 @@ const projects: TProject[] = [
     image: roddeepic,
     sourceCodeLink: "https://front-end-car-ecommerce.vercel.app/",
   },
+  {
+    name: "E-commerce Checkout Bot",
+    description:
+          "A checkout bot using HTTP requests to add items to the cart and Selenium to complete the purchase, built for educational purposes.",
+      // "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Selenium",
+        color: "white-text-gradient",
+      },
+      {
+        name: "Requests Library",
+        color: "orange-text-gradient",
+      },
+      
+    ],
+    image: roddeepic,
+    sourceCodeLink: "https://github.com/Guitarktp/e-com-checkout-project",
+  },
+  
   // {
   //   name: "Shopping Cart Web App",
   //   description:
