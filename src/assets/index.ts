@@ -35,6 +35,11 @@ import behance from "./company/behance.png"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import linkButton from "./linktoweb.png"
+import figmaButton from "./figma.png"
+import roddeeCover from "./Rodeecover.png"
+import botCover from "./ecomBot.png"
+
 
 import profilePic from "./tech/ReadyPlayerMe-Avatar 1.png"
 
@@ -74,4 +79,9 @@ export {
   linkedin,
   githubb,
   behance,
+  linkButton,
+  figmaButton,
+  roddeeCover,
+  botCover,
+  
 };

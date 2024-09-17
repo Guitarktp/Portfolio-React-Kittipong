@@ -23,6 +23,11 @@ import {
   mongodb,
   git,
   figma,
+  github,
+  linkButton,
+  figmaButton,
+  roddeeCover,
+  
   // docker,
   // meta,
   // starbucks,
@@ -34,6 +39,8 @@ import {
   // threejs,
   generation,
   AAA,
+  botCover,
+  
 } from "../assets";
 
 import roddeepic from "../assets/profile_pic/roddee.png"
@@ -269,7 +276,7 @@ const testimonials: TTestimonial[] = [
 
 const projects: TProject[] = [
   {
-    name: "RODDEE   Second-Hand Car ",
+    name: "RODDEE Second-Hand Car ",
     description:
           "Used the MERN Stack to develop a comprehensive web application for buying and selling second-hand cars.",
       // "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
@@ -290,14 +297,19 @@ const projects: TProject[] = [
         name: "Express",
         color: "orange-text-gradient",
       },
-      {
-        name: "Figma",
-        color: "white-text-gradient",
-      },
       
     ],
     image: roddeepic,
-    sourceCodeLink: "https://front-end-car-ecommerce.vercel.app/",
+    sourceCodeLinks: [
+      {
+        link: "https://github.com/jsd-genkx/mern-notes-app-frontend/tree/main/notes-app/src",
+        icon: github,
+      },
+      {
+        link: "https://front-end-car-ecommerce.vercel.app/",
+        icon: linkButton, 
+      },
+    ],
   },
   {
     name: "E-commerce Checkout Bot",
@@ -319,8 +331,38 @@ const projects: TProject[] = [
       },
       
     ],
-    image: roddeepic,
-    sourceCodeLink: "https://github.com/Guitarktp/e-com-checkout-project",
+    image: botCover,
+    sourceCodeLinks: [
+      {
+        link: "https://github.com/Guitarktp/e-com-checkout-project",
+        icon: github, // ใส่ไอคอนที่คุณต้องการ
+      },
+    ],
+  },
+  {
+    name: "RODDEE Second-Hand Car (UI Design)",
+    description:
+          "A checkout bot using HTTP requests to add items to the cart and Selenium to complete the purchase, built for educational purposes.",
+      // "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    tags: [
+      {
+        name: "Figma",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Design System",
+        color: "pink-text-gradient",
+      },
+      
+      
+    ],
+    image: roddeeCover,
+    sourceCodeLinks: [
+      {
+        link: "https://www.figma.com/design/ZzlG2mjYS61BXoKv4jtxqg/RODDEE-Second-hand-Car-Project?node-id=3016-630&t=TuC4CVd2FIsreSbU-1",
+        icon: figmaButton, // ใส่ไอคอนที่คุณต้องการ
+      },
+    ],
   },
   
   // {

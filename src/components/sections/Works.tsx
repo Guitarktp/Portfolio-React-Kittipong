@@ -1,7 +1,7 @@
 import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 
-import { github } from "../../assets";
+
 import { SectionWrapper } from "../../hoc";
 import { projects } from "../../constants";
 import { fadeIn } from "../../utils/motion";
@@ -9,13 +9,13 @@ import { config } from "../../constants/config";
 import { Header } from "../atoms/Header";
 import { TProject } from "../../types";
 
-const ProjectCard: React.FC<{ index: number } & TProject> = ({
+const ProjectCard: React.FC<{ index: number } & TProject > = ({
   index,
   name,
   description,
   tags,
   image,
-  sourceCodeLink,
+  sourceCodeLinks, // เป็น array ของ object ที่มีทั้ง link และ icon
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -27,23 +27,27 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
         glareColor="#aaa6c3"
       >
         <div className="bg-tertiary w-full rounded-2xl p-5 sm:w-[300px]">
-          <div className="relative h-[230px] w-full">
+          <div className="relative h-[188px] w-full">
             <img
               src={image}
               alt={name}
               className="h-full w-full rounded-2xl object-cover"
             />
             <div className="card-img_hover absolute inset-0 m-3 flex justify-end">
-              <div
-                onClick={() => window.open(sourceCodeLink, "_blank")}
-                className="black-gradient flex h-10 w-10 cursor-pointer items-center justify-center rounded-full"
-              >
-                <img
-                  src={github}
-                  alt="github"
-                  className="h-1/2 w-1/2 object-contain"
-                />
-              </div>
+              {/* วนลูปแสดงลิงก์และไอคอน */}
+              {sourceCodeLinks.map((source, idx) => (
+                <div
+                  key={idx}
+                  onClick={() => window.open(source.link, "_blank")}
+                  className="black-gradient flex h-10 w-10 cursor-pointer items-center justify-center rounded-full mx-1"
+                >
+                  <img
+                    src={source.icon} // แสดงผลไอคอนที่กำหนด
+                    alt={`link-icon-${idx}`}
+                    className="h-1/2 w-1/2 object-contain"
+                  />
+                </div>
+              ))}
             </div>
           </div>
           <div className="mt-5">
@@ -62,6 +66,9 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
     </motion.div>
   );
 };
+
+
+
 
 const Works = () => {
   return (
