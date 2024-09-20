@@ -312,6 +312,68 @@ const projects: TProject[] = [
     ],
   },
   {
+    name: "RODDEE Second-Hand Car (UI Design)",
+    description:
+          "A UI design project for a second-hand car sales website application, utilizing a design system to create consistent and user-friendly interfaces.",
+          
+      // "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    tags: [
+      {
+        name: "Figma",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Design System",
+        color: "pink-text-gradient",
+      },
+      
+      
+    ],
+    image: roddeeCover,
+    sourceCodeLinks: [
+      {
+        link: "https://www.figma.com/design/ZzlG2mjYS61BXoKv4jtxqg/RODDEE-Second-hand-Car-Project?node-id=3016-630&t=TuC4CVd2FIsreSbU-1",
+        icon: figmaButton, // ใส่ไอคอนที่คุณต้องการ
+      },
+    ],
+  },
+  {
+    name: "Note Taking App (Mini Project)",
+    description:
+          "Used the MERN Stack to created a note-taking application that allows users to easily create, edit, delete, and manage their notes.",
+      // "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Tailwind",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Express",
+          color: "orange-text-gradient",
+        },
+        
+      ],
+    image: botCover,
+    sourceCodeLinks: [
+      {
+        link: "https://github.com/Guitarktp/e-com-checkout-project",
+        icon: github, // ใส่ไอคอนที่คุณต้องการ
+      },
+      {
+        link: "https://front-end-car-ecommerce.vercel.app/",
+        icon: linkButton, 
+      },
+    ],
+  },
+  {
     name: "E-commerce Checkout Bot",
     description:
           "A checkout bot using HTTP requests to add items to the cart and Selenium to complete the purchase, built for educational purposes.",
@@ -339,31 +401,7 @@ const projects: TProject[] = [
       },
     ],
   },
-  {
-    name: "RODDEE Second-Hand Car (UI Design)",
-    description:
-          "A checkout bot using HTTP requests to add items to the cart and Selenium to complete the purchase, built for educational purposes.",
-      // "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
-      {
-        name: "Figma",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Design System",
-        color: "pink-text-gradient",
-      },
-      
-      
-    ],
-    image: roddeeCover,
-    sourceCodeLinks: [
-      {
-        link: "https://www.figma.com/design/ZzlG2mjYS61BXoKv4jtxqg/RODDEE-Second-hand-Car-Project?node-id=3016-630&t=TuC4CVd2FIsreSbU-1",
-        icon: figmaButton, // ใส่ไอคอนที่คุณต้องการ
-      },
-    ],
-  },
+  
   
   // {
   //   name: "Shopping Cart Web App",
