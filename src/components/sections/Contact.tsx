@@ -67,11 +67,12 @@ const Contact = () => {
 
   return (
     <div
-      className={`flex flex-col-reverse gap-10 overflow-hidden xl:mt-12 xl:flex-row`}
+      // className={`flex flex-col-reverse gap-10 overflow-hidden xl:mt-12 xl:flex-row`}
+      className={`flex flex-col-reverse gap-10 overflow-hidden xl:mt-12 `}
     >
       <motion.div
-        variants={slideIn("left", "tween", 0.2, 1)}
-        className="bg-black-100 flex-[0.75] rounded-2xl p-8"
+        // variants={slideIn("left", "tween", 0.2, 1)}
+        className="bg-black-100 flex-[0.75] rounded-2xl p-8 "
       >
         <Header useMotion={false} {...config.contact} />
 
