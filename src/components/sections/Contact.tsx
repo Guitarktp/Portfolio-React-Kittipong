@@ -4,7 +4,7 @@ import emailjs from "@emailjs/browser";
 
 // import { EarthCanvas } from "../canvas";
 import { SectionWrapper } from "../../hoc";
-import { slideIn } from "../../utils/motion";
+// import { slideIn } from "../../utils/motion";
 import { config } from "../../constants/config";
 import { Header } from "../atoms/Header";
 
