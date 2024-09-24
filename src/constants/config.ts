@@ -75,11 +75,11 @@ export const config: TConfig = {
     },
     experience: {
       p: "What I have done so far",
-      h2: "Work Experience.",
+      h2: "Experience.",
     },
     feedbacks: {
-      p: "What others say",
-      h2: "Education",
+      p: "",
+      h2: "Education.",
     },
     works: {
       p: "My work",

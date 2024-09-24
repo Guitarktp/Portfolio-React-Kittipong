@@ -40,6 +40,7 @@ import {
   generation,
   AAA,
   botCover,
+  noteCover,
   
 } from "../assets";
 
@@ -338,7 +339,7 @@ const projects: TProject[] = [
     ],
   },
   {
-    name: "Note Taking App (Mini Project)",
+    name: "Note Taking App",
     description:
           "Used the MERN Stack to created a note-taking application that allows users to easily create, edit, delete, and manage their notes.",
       // "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
@@ -361,14 +362,14 @@ const projects: TProject[] = [
         },
         
       ],
-    image: botCover,
+    image: noteCover,
     sourceCodeLinks: [
       {
-        link: "https://github.com/Guitarktp/e-com-checkout-project",
+        link: "https://github.com/Guitarktp/notes-app-myself",
         icon: github, // ใส่ไอคอนที่คุณต้องการ
       },
       {
-        link: "https://front-end-car-ecommerce.vercel.app/",
+        link: "https://alwaysnote.vercel.app/",
         icon: linkButton, 
       },
     ],

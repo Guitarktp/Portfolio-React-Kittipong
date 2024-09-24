@@ -39,6 +39,7 @@ import linkButton from "./linktoweb.png"
 import figmaButton from "./figma.png"
 import roddeeCover from "./Rodeecover.png"
 import botCover from "./ecomBot.png"
+import noteCover from "./notecover.png"
 
 
 import profilePic from "./tech/ReadyPlayerMe-Avatar 1.png"
@@ -83,5 +84,5 @@ export {
   figmaButton,
   roddeeCover,
   botCover,
-  
+  noteCover,
 };

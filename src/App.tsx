@@ -30,9 +30,8 @@ const App = () => {
         </div>
         <About />
         <Experience />
-        <Tech />
         <Works />
-        
+        <Tech />
         {/* testimonail ไม่ใช้ */}
         <Feedbacks />   
         <div className="relative z-0">
