@@ -40,13 +40,13 @@ type TConfig = {
 
 export const config: TConfig = {
   html: {
-    title: "Guitar",
+    title: "Kittipong Portfolio",
     fullName: "Kittipong Satayanusakkul",
     email: "Kittipong.sataya@gmail.com",
   },
   hero: {
     name: "Kittipong Satayanusakkul ",
-    p: ["An engineer with a passion for technology and a recent graduate of the Generation Junior Software DeveloperBootcamp, I am seeking an opportunity for an entry-level Front-End Developer position. My skills in HTML, CSS,JavaScript, React, and responsive design, along with my creative abilities, analytical thinking, and attention to detail. "],
+    p: ["I'm a career switcher with a background in Aeronautical Engineering, driven by a passion for technology, problem-solving, and continuous learning. Skilled in coding, I'm ready to embrace new challenges and develop innovative software solutions. "],
   },
   contact: {
     p: "Get in touch",
@@ -67,11 +67,12 @@ export const config: TConfig = {
     about: {
       p: "Introduction",
       h2: "Overview.",
-      content: `I'm a skilled software developer with experience in 
-      JavaScript, and expertise in frameworks like React, Node.js. 
-      I'm a quick learner and collaborate closely with clients to
-      create efficient, scalable, and user-friendly solutions that solve
-      real-world problems. Let's work together to bring your ideas to life!`,
+      content: `An engineer with a passion for the technology field and a recent graduate of the Generation Junior Software Developer Bootcamp, I am seeking an opportunity for an entry-level Front-End Developer position. During the Bootcamp, I gained knowledge in Front-end development, including HTML, CSS, JavaScript, React, and responsive design. Additionally, I possess a UX/UI mindset that enhances my creative abilities, analytical thinking, and attention to detail. `,
+      // content: `I'm a skilled software developer with experience in 
+      // JavaScript, and expertise in frameworks like React, Node.js. 
+      // I'm a quick learner and collaborate closely with clients to
+      // create efficient, scalable, and user-friendly solutions that solve
+      // real-world problems. Let's work together to bring your ideas to life!`,
     },
     experience: {
       p: "What I have done so far",

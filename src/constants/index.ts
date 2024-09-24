@@ -51,11 +51,11 @@ import circle from "../assets/Ellipse 22.png"
 
 export const navLinks: TNavLink[] = [
   {
-    id: "about",
-    title: "About",
+    id: "work",
+    title: "Experience",
   },
   {
-    id: "work",
+    id: "project",
     title: "Work",
   },
   {

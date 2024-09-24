@@ -56,7 +56,7 @@ const Feedbacks = () => {
       <div
         className={`${styles.paddingX} -mt-20 flex flex-wrap gap-7 pb-14 max-sm:justify-center`}
       >
-          <div className='bg-[#161130] w-[760px]  rounded-lg px-6 py-4'>
+          <div className='bg-[#161130] w-[760px]  rounded-lg px-6 py-6'>
             
             <h1 className={` text-white text-[24px] font-bold`}>King Mongkut's Institute of Technology Ladkrabang</h1>
             <h1 className={` text-[16px] font-semibold text-[#a29dba]`}>Bachelor of Engineering (2018-2022)</h1>

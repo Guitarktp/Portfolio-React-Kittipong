@@ -26,6 +26,9 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white `}>
             Hi, I'm <span className="text-[#915EFF] ">{config.hero.name}</span>
           </h1>
+          <h1 className={`text-[32px] text-white font-semibold mt-2`}>
+            Software Developer
+          </h1>
           <p className={`${styles.heroSubText} text-white-100 mt-2 lg:w-[688px] mx-auto `}>
             {config.hero.p[0]} <br className="hidden sm:block " />
             {config.hero.p[1]}
@@ -48,7 +51,7 @@ const Hero = () => {
           
             <div >
               <a href="https://drive.google.com/file/d/11pvd0z2yqaAU412Z5U1bNM4RdmxmhnDN/view" target="_blank" rel="noopener noreferrer">
-              <button className='bg-[#161130] xxl:w-[264px] xxl:h-[128px] md:w-[264px] md:h-[100px] max-md:w-[220px] max-md:h-[76px] rounded-lg flex justify-center items-center text-[36px] max-md:text-[32px] font-bold '>
+              <button className='bg-[#161130] xxl:w-[264  px] xxl:h-[128px] md:w-[264px] md:h-[100px] max-md:w-[220px] max-md:h-[76px] rounded-lg flex justify-center items-center text-[36px] max-md:text-[32px] font-bold '>
               MY RESUME
                 {/* <img src={githubb} className= "w-[208px] h-[82px]" />  */}
               </button>
