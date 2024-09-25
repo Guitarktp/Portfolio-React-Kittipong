@@ -1,6 +1,7 @@
 import React, { useState, useRef } from "react";
 import { motion } from "framer-motion";
-import emailjs from "@emailjs/browser";
+import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2'
 
 // import { EarthCanvas } from "../canvas";
 import { SectionWrapper } from "../../hoc";
@@ -14,8 +15,8 @@ const INITIAL_STATE = Object.fromEntries(
 
 const emailjsConfig = {
   serviceId: import.meta.env.VITE_EMAILJS_SERVICE_ID,
-  templateId: import.meta.env.VITE_EMAILJS_SERVICE_ID,
-  accessToken: import.meta.env.VITE_EMAILJS_ACCESS_TOKEN,
+  templateId: import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+  userId: import.meta.env.VITE_EMAILJS_USER_ID,
 };
 
 const Contact = () => {
@@ -35,6 +36,7 @@ const Contact = () => {
     if (e === undefined) return;
     e.preventDefault();
     setLoading(true);
+    
 
     emailjs
       .send(
@@ -47,12 +49,18 @@ const Contact = () => {
           to_email: config.html.email,
           message: form.message,
         },
-        emailjsConfig.accessToken
+        emailjsConfig.userId
       )
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+          Swal.fire({
+            title: "Success",
+            text: "Thank you. I will get back to you as soon as possible.",
+            icon: "success",
+            background: "#100D25",
+            color: "#fff",
+          });
 
           setForm(INITIAL_STATE);
         },
@@ -60,10 +68,16 @@ const Contact = () => {
           setLoading(false);
 
           console.log(error);
-          alert("Something went wrong.");
+          Swal.fire({
+            icon: "error",
+            title: "Oops...",
+            text: "Something went wrong!",
+          });
         }
       );
   };
+
+
 
   return (
     <div
