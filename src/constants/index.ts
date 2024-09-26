@@ -303,11 +303,11 @@ const projects: TProject[] = [
     image: roddeepic,
     sourceCodeLinks: [
       {
-        link: "https://github.com/jsd-genkx/mern-notes-app-frontend/tree/main/notes-app/src",
+        link: "https://github.com/orgs/Eggplant-Samurai/repositories",
         icon: github,
       },
       {
-        link: "https://front-end-car-ecommerce.vercel.app/",
+        link: "https://roddee-ecommerce.vercel.app/",
         icon: linkButton, 
       },
     ],
