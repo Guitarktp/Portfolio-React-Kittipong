@@ -40,7 +40,7 @@ import {
   generation,
   AAA,
   botCover,
-  noteCover,
+  // noteCover,
   
 } from "../assets";
 
