@@ -338,42 +338,42 @@ const projects: TProject[] = [
       },
     ],
   },
-  {
-    name: "Note Taking App",
-    description:
-          "Used the MERN Stack to created a note-taking application that allows users to easily create, edit, delete, and manage their notes.",
-      // "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-      tags: [
-        {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Tailwind",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "Express",
-          color: "orange-text-gradient",
-        },
+  // {
+  //   name: "Note Taking App",
+  //   description:
+  //         "Used the MERN Stack to created a note-taking application that allows users to easily create, edit, delete, and manage their notes.",
+  //     // "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+  //     tags: [
+  //       {
+  //         name: "React",
+  //         color: "blue-text-gradient",
+  //       },
+  //       {
+  //         name: "Mongodb",
+  //         color: "green-text-gradient",
+  //       },
+  //       {
+  //         name: "Tailwind",
+  //         color: "pink-text-gradient",
+  //       },
+  //       {
+  //         name: "Express",
+  //         color: "orange-text-gradient",
+  //       },
         
-      ],
-    image: noteCover,
-    sourceCodeLinks: [
-      {
-        link: "https://github.com/Guitarktp/notes-app-myself",
-        icon: github, // ใส่ไอคอนที่คุณต้องการ
-      },
-      {
-        link: "https://alwaysnote.vercel.app/",
-        icon: linkButton, 
-      },
-    ],
-  },
+  //     ],
+  //   image: noteCover,
+  //   sourceCodeLinks: [
+  //     {
+  //       link: "https://github.com/Guitarktp/notes-app-myself",
+  //       icon: github, // ใส่ไอคอนที่คุณต้องการ
+  //     },
+  //     {
+  //       link: "https://alwaysnote.vercel.app/",
+  //       icon: linkButton, 
+  //     },
+  //   ],
+  // },
   {
     name: "E-commerce Checkout Bot",
     description:
