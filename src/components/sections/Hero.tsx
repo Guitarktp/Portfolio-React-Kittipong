@@ -50,7 +50,7 @@ const Hero = () => {
         >
           
             <div >
-              <a href="https://drive.google.com/file/d/11pvd0z2yqaAU412Z5U1bNM4RdmxmhnDN/view" target="_blank" rel="noopener noreferrer">
+              <a href="https://drive.google.com/file/d/19w2nnHIqRLh9WSxRfzGDMPjI_OizXms0/view?usp=sharing" target="_blank" rel="noopener noreferrer">
               <button className='bg-[#161130] xxl:w-[264  px] xxl:h-[128px] md:w-[264px] md:h-[100px] max-md:w-[220px] max-md:h-[76px] rounded-lg flex justify-center items-center text-[36px] max-md:text-[32px] font-bold '>
               MY RESUME
                 {/* <img src={githubb} className= "w-[208px] h-[82px]" />  */}
